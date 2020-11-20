@@ -15,13 +15,13 @@ Buon lavoro e buon divertimento! */
 
 for (var numero = 1; numero <= 100; numero++) {
 
-  //3.Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
+  //4.Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
   if (numero % 3 == 0 && numero % 5 == 0 ) {
     console.log("FizzBuzz"); 
   //2. per i multipli di 3 stampi “Fizz” al posto del numero   
   } else if ( numero % 3 == 0 ){
     console.log("Fizz");
-  //4. per i multipli di 5 stampi Buzz.  
+  //3. per i multipli di 5 stampi Buzz.  
   } else if ( numero % 5 == 0 ){
     console.log("Buzz");  
   } else {
